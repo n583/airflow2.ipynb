@@ -7,7 +7,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.sql import SQLCheckOperator
 from airflow.providers.mysql.operators.mysql import MySqlOperator
 from airflow.providers.sqlite import operators
-from airflow.providers.
+
 
 # Example of creating a task that calls a common CREATE TABLE sql command.
 from airflow.providers.sqlite.operators.sqlite import SqliteOperator
